@@ -28,7 +28,6 @@ public class PayslipConstants {
     public static final String PAYSLIP = "PaySlip";
     public static final String FOR = "For";
 
-
     public static final String UNDERSCORE = "_";
     public static final String SPACE = " ";
     public static final String COLON = ":";

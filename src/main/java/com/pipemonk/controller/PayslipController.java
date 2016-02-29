@@ -78,6 +78,11 @@ public class PayslipController {
         return payslipOutput;
     }
 
+    /**
+     * Creates PDF file for payslip
+     *
+     * @param payslipOutput
+     */
     private void createPayslipFile(Payslip.Output payslipOutput) {
         try {
             // Create a PDF file for the payslip

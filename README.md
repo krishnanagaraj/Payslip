@@ -38,7 +38,7 @@ Following are sample request and output:
 
 java -jar PipemonkTest-1.0.0.jar 10000 g1
 
-Created <payslip_detail>.pdf file. File can be found here: /path/to/pdf/
+Created Payslip_employeeName_month_year.pdf file. File can be found here: /path/to/pdf/
 
 For any assistance please reach out to me at
 --------------------------------------------

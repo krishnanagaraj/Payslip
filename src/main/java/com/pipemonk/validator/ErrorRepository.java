@@ -9,8 +9,6 @@ public enum ErrorRepository {
     MANDATORY_PARAMETER_MISSING("Mandatory '%s' parameter missing."),
     INVALID_PARAMETER("Invalid '%s' parameter.");
 
-
-
     private String error = "";
 
     ErrorRepository(String error) {

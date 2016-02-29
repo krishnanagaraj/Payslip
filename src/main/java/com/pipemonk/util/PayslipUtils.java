@@ -1,7 +1,7 @@
 package com.pipemonk.util;
 
 /**
- * Created by Krishna on 2/28/16.
+ * Payslip utility class
  */
 public class PayslipUtils {
 

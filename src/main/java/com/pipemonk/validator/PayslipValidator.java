@@ -22,6 +22,9 @@ public class PayslipValidator {
         this.postValidation();
     }
 
+    /**
+     * Input validation to check for empty and null data
+     */
     public void processInputValidation() {
         if (PayslipUtils.isNullOrEmpty(payslipInput.getGrade())) {
             errors = String.format(ErrorRepository.MANDATORY_PARAMETER_MISSING.getErrorMessage(), PayslipConstants.PARAM_GRADE);
@@ -32,6 +35,9 @@ public class PayslipValidator {
         }
     }
 
+    /**
+     * Input validation to check for values
+     */
     public void postValidation() {
 
         String employeeGrade = payslipInput.getGrade();

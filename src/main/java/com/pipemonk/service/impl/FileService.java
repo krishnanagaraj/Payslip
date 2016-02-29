@@ -14,7 +14,7 @@ import java.io.FileOutputStream;
 import com.itextpdf.text.pdf.PdfWriter;
 
 /**
- * Handles the PDF file creation and modification
+ * Handles the Payslip file creation and modification
  */
 public class FileService implements IFileService {
 
